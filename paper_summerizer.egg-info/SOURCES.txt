@@ -1,0 +1,11 @@
+README.md
+cli.py
+prompts.py
+pyproject.toml
+summerizer.py
+paper_summerizer.egg-info/PKG-INFO
+paper_summerizer.egg-info/SOURCES.txt
+paper_summerizer.egg-info/dependency_links.txt
+paper_summerizer.egg-info/entry_points.txt
+paper_summerizer.egg-info/requires.txt
+paper_summerizer.egg-info/top_level.txt
