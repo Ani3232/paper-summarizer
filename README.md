@@ -25,32 +25,27 @@ Written solely for offline usages and as a command line tool.
 
 ## Usage
 
-```
+```bash
 summerize paper.pdf --style bullet --output summery.md
 ```
-summerize - The command initiating the tool
-paper.pdf - Name of the Pdf file.
---style   - Defining the style of summery -> research, brief, detailed, bullet
---output  - Defining the filename it would give output to. eg. summery.md
---chunk   - Flag if passed document is passed into smaller chunks for larger documents
+| Argument | Description |
+|---|---|
+| `filepath` | Path to your PDF or TXT file |
+| `--style` | `research`, `brief`, `detailed`, `bullet` |
+| `--model` | Ollama model to use (default: `qwen3.5:4b`) |
+| `--output` | Save to file e.g. `summary.md` |
+| `--chunk` | Split long papers into chunks |
 ---
 
 ## Project Structure
+```
 root/
 |-cli.py
 |-prompts.py
 |-summerizer.py
 └-README.md
+```
 ---
 
 ## License
 MIT License — feel free to use, modify and distribute.
-```
-
-And create a `LICENSE` file in your project root with this content:
-```
-MIT License
-
-Copyright (c) 2025 Ani
-
-Just Do whatever you want.
